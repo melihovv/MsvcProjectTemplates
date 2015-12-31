@@ -1,0 +1,19 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>Visual C++ project with gtest</Name>
+        <Description>Main project with gtest project</Description>
+        <Icon>__TemplateIcon.ico</Icon>
+        <ProjectType>VC</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <ProjectTemplateLink ProjectName="Main">
+                Main\Main.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="Test">
+                Test\Test.vstemplate
+            </ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>
